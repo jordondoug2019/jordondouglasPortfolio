@@ -1,0 +1,91 @@
+html,body{
+    height: auto;
+    width:auto;
+}
+/**{*/
+/*    border:1px solid black;*/
+/*}*/
+#aboutContainer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#aboutHeader
+{
+    margin-left: 45%;
+}
+#aboutBody
+{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#bodyTitle
+{
+    margin-left: 8%;
+}
+#aboutImg
+{
+    margin-left: 43%;
+}
+#menu
+{
+    height: 450px;
+    /*display: inline-grid;*/
+    background-color: #555;
+    color:white;
+    /*margin-top: 10%;*/
+    width: 5.5%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 111px;
+
+}
+i{
+    /*vertical-align: 100px;*/
+    font-size: x-large;
+    align-content: center;
+    margin-top: 5%;
+    /*background-color: #555;*/
+}
+#icon1{
+    align-content: center;
+    margin-left: 25%;
+    margin-top: 10%;
+    position: relative;
+    top:20px;
+    left:5px;
+}
+#iconPic{
+    position: relative;
+    top: 40px;
+    left: 5px;
+}
+
+#icon2{
+    margin-left: 30%;
+    margin-top: 80%;
+    position: relative;
+    top:10px;
+}
+#icon3 {
+    margin-left: 30%;
+    margin-top: 80%;
+    position: relative;
+    top: 5px;
+}
+#icon4{
+    margin-left: 30%;
+    margin-top: 80%;
+
+}
+#footerDiv{
+
+    margin-top: 45.5%;
+    /*margin-left: 5%;*/
+    margin-right:20%;
+    text-align: center;
+    position: fixed;
+    /*left:10px;*/
+    width:100%;
+    background-color: orange;
+}
